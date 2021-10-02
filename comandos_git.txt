@@ -1,0 +1,28 @@
+------------RELACIONAR PROYECTO A UN NUEVO REPOSITORIO-----
+git init
+pegar la url indicada en el proyecto de github
+git add .
+git commit -m "comentario"
+git push origin master
+
+-------CLONAR UN REPOSITORIO----
+git clone url-repositorio
+
+
+------OBTENER LOS CAMBIOS DEL PROYECTO--------
+git pull origin master (master es el nombre de la rama)
+
+
+---------VER RAMAS EXISTENTES Y DONDE ESTAMOS UBICADOS----
+git branch
+
+-----CREAR NUEVA RAMA-----
+git branch nombreRama
+
+
+------UNIR RAMAS-----
+(para unir las ramas debe de estar ubicado sobre la master)
+git merge nombreRama
+
+--------ELIMINAR RAMA----
+git branch -d nombreRama
